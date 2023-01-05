@@ -2,8 +2,12 @@ import React from 'react';
 import { useNavigate } from "react-router-dom"
 import './App.css';
 import Footer from "./Footer";
-import Info from "./Info";
-
+import Info from "./Info1";
+import Info2 from "./Info2"
+import Info3 from "./Info3"
+import Info4 from "./Info4"
+import Info5 from "./Info5"
+import Info6 from "./Info6";
 
 import Navbar from './Navbar';
 
@@ -167,7 +171,13 @@ function App() {
       <h1 style={{ textAlign: "center" }}>Impact Quantified, <span style={{ color: "red" }}>Real Time</span></h1>
 
 
+      <Info6/>
+      <h1 style={{textAlign:"center"}}>Understand . Engage . Transact</h1>
+      <Info5/>
+       <Info4/>
+        <Info3/>
       <Info />
+      <Info2/>
 
       <h1 style={{ textAlign: "center", fontFamily: "sans-serif", marginBottom: "30px" }}>  Ready to experience the future of content monetisation?</h1>
       <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", marginBottom: "70px" }}>
